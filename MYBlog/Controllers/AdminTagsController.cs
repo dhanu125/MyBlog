@@ -19,6 +19,7 @@ namespace MYBlog.Controllers
 
         public IActionResult Add()
         {
+            Console.WriteLine("hi");
             return View();
         }
         [HttpPost]
